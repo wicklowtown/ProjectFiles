@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		EF0186002BAB577469483AF9 = {isa = PBXBuildFile; fileRef = B8E60AD07813D678A023F039; }; /* Assets.xcassets */
+		251F04BF15D33D585C532F71 = {isa = PBXBuildFile; fileRef = AAD3B72FE95DA7A68170CDB2; }; /* LaunchScreen.storyboardc */
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7451D3F36FE827DF64027CFE = {isa = PBXFileReference; explicitFileType = file.txt; name = "DefaultEditor.ini"; path = "../../Config/DefaultEditor.ini"; sourceTree = SOURCE_ROOT; };
+		4E6FC01DBECF6EAFE3EBE34A = {isa = PBXFileReference; explicitFileType = file.txt; name = "DefaultEditorPerProjectUserSettings.ini"; path = "../../Config/DefaultEditorPerProjectUserSettings.ini"; sourceTree = SOURCE_ROOT; };
+		CEDBC2E8B849B360A801E011 = {isa = PBXFileReference; explicitFileType = file.txt; name = "DefaultEngine.ini"; path = "../../Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		5873D72E80F5FC38B15BAE4B = {isa = PBXFileReference; explicitFileType = file.txt; name = "DefaultGame.ini"; path = "../../Config/DefaultGame.ini"; sourceTree = SOURCE_ROOT; };
+		6BB943E2C40AE476452D4EE3 = {isa = PBXFileReference; explicitFileType = file.txt; name = "DefaultInput.ini"; path = "../../Config/DefaultInput.ini"; sourceTree = SOURCE_ROOT; };
+		CF746C0FF4BEC24D1E04EB4B = {isa = PBXFileReference; explicitFileType = file.txt; name = "Version0JestQuest.Target.cs"; path = "../../Source/Version0JestQuest.Target.cs"; sourceTree = SOURCE_ROOT; };
+		F519DBC82B7C343B37F88500 = {isa = PBXFileReference; explicitFileType = file.txt; name = "Version0JestQuest.uproject"; path = "../../Version0JestQuest.uproject"; sourceTree = SOURCE_ROOT; };
+		22821BCF6DE15943113C7242 = {isa = PBXFileReference; explicitFileType = wrapper.application; name = "Version0JestQuest"; path = "Version0JestQuest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E60AD07813D678A023F039 = {isa = PBXFileReference; explicitFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "/Users/Shared/Epic Games/UE_5.3/Engine/Build/Mac/Resources/Assets.xcassets"; sourceTree = "<absolute>"; };
+		AAD3B72FE95DA7A68170CDB2 = {isa = PBXFileReference; explicitFileType = wrapper.storyboardc; name = "LaunchScreen.storyboardc"; path = "/Users/Shared/Epic Games/UE_5.3/Engine/Build/IOS/Resources/Interface/LaunchScreen.storyboardc"; sourceTree = "<absolute>"; };
+		B8E360CC32EC0415F6840EB2 = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "Version0JestQuest.xcconfig"; path = "XcconfigsMac/Version0JestQuest.xcconfig"; sourceTree = "<group>"; };
+		0339FDB7985AE7C8F0FE03D1 = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "Version0JestQuest_DebugGame.xcconfig"; path = "XcconfigsMac/Version0JestQuest_DebugGame.xcconfig"; sourceTree = "<group>"; };
+		B5CCF032517F04AD2145669A = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "Version0JestQuest_Development.xcconfig"; path = "XcconfigsMac/Version0JestQuest_Development.xcconfig"; sourceTree = "<group>"; };
+		D8CFBB7E9DF9CB45FA0126A0 = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "Version0JestQuest_Shipping.xcconfig"; path = "XcconfigsMac/Version0JestQuest_Shipping.xcconfig"; sourceTree = "<group>"; };
+		D13D868A2EA9EDCA2BEFC87D = {isa = PBXFileReference; explicitFileType = text.plist; name = "Info-Editor.Template.plist"; path = "../../../../../../Shared/Epic Games/UE_5.3/Engine/Intermediate/Build/Mac/Resources/Info-Editor.Template.plist"; sourceTree = "<group>"; };
+		5301171DF2E785B5A9B749DA = {isa = PBXFileReference; explicitFileType = text.plist; name = "Info.Template.plist"; path = "../../Build/Mac/Resources/Info.Template.plist"; sourceTree = "<group>"; };
+		8525A9479D1B8703DB907C5C = {isa = PBXFileReference; explicitFileType = text.plist; name = "Info.Template.plist"; path = "../../Build/IOS/UBTGenerated/Info.Template.plist"; sourceTree = "<group>"; };
+		9434485D52AAA68CBFEF97CC = {isa = PBXFileReference; explicitFileType = text.plist; name = "Sandbox.Server.entitlements"; path = "../../Build/Mac/Resources/Sandbox.Server.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3D244D3FE4CBD18CD4F10E62 = {
+			isa = PBXGroup;
+			children = (
+				EEB12C7A8993EC907ED76DD3 /* Config */,
+				41057DE411F5A571D5361B78 /* Source */,
+				F519DBC82B7C343B37F88500 /* Version0JestQuest.uproject */,
+				F33858903E5FF0AFC3ED7EB2 /* Products */,
+				B4C9469614A76B90172A5339 /* Resources */,
+				2C556D8A7387710393DA04E4 /* Xcconfigs */,
+				480624C721E451ACF53B2039 /* Metadata */,
+			);
+			sourceTree = "<group>";
+		};
+		EEB12C7A8993EC907ED76DD3 = {
+			isa = PBXGroup;
+			children = (
+				7451D3F36FE827DF64027CFE /* DefaultEditor.ini */,
+				4E6FC01DBECF6EAFE3EBE34A /* DefaultEditorPerProjectUserSettings.ini */,
+				CEDBC2E8B849B360A801E011 /* DefaultEngine.ini */,
+				5873D72E80F5FC38B15BAE4B /* DefaultGame.ini */,
+				6BB943E2C40AE476452D4EE3 /* DefaultInput.ini */,
+			);
+			name = "Config";
+			path = "/Users/pat/Documents/JestQuestVerionZeroCplusplus/Version0JestQuest/Config";
+			sourceTree = "<absolute>";
+		};
+		41057DE411F5A571D5361B78 = {
+			isa = PBXGroup;
+			children = (
+				CF746C0FF4BEC24D1E04EB4B /* Version0JestQuest.Target.cs */,
+			);
+			name = "Source";
+			path = "/Users/pat/Documents/JestQuestVerionZeroCplusplus/Version0JestQuest/Source";
+			sourceTree = "<absolute>";
+		};
+		F33858903E5FF0AFC3ED7EB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22821BCF6DE15943113C7242 /* Version0JestQuest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4C9469614A76B90172A5339 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B8E60AD07813D678A023F039 /* Assets.xcassets */,
+				AAD3B72FE95DA7A68170CDB2 /* LaunchScreen.storyboardc */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2C556D8A7387710393DA04E4 /* Xcconfigs */ = {
+			isa = PBXGroup;
+			children = (
+				B8E360CC32EC0415F6840EB2 /* Version0JestQuest.xcconfig */,
+				0339FDB7985AE7C8F0FE03D1 /* Version0JestQuest_DebugGame.xcconfig */,
+				B5CCF032517F04AD2145669A /* Version0JestQuest_Development.xcconfig */,
+				D8CFBB7E9DF9CB45FA0126A0 /* Version0JestQuest_Shipping.xcconfig */,
+			);
+			name = Xcconfigs;
+			sourceTree = "<group>";
+		};
+		480624C721E451ACF53B2039 /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				D13D868A2EA9EDCA2BEFC87D /* Info-Editor.Template.plist */,
+				5301171DF2E785B5A9B749DA /* Info.Template.plist */,
+				8525A9479D1B8703DB907C5C /* Info.Template.plist */,
+				9434485D52AAA68CBFEF97CC /* Sandbox.Server.entitlements */,
+			);
+			name = Metadata;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+/* Begin PBXProject section */
+		BE874C47E7926D2CD47A6026 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					3AA298C2B3F97585DD3E71F8 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8782344D732B7C8E427A04D2 /* Build configuration list for PBXProject "Version0JestQuest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 3D244D3FE4CBD18CD4F10E62;
+			productRefGroup = F33858903E5FF0AFC3ED7EB2;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AA298C2B3F97585DD3E71F8 /* Version0JestQuest */,
+				19C06F67F49FBB574ACEB52A /* Version0JestQuest_Build */,
+			);
+		};
+/* End PBXProject section */
+/* Begin Run_App section */
+		3AA298C2B3F97585DD3E71F8 /* Version0JestQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F049B67E02CD4D82A4CC70 /* Build configuration list for PBXNativeTarget "Version0JestQuest" */;
+			buildPhases = (
+				21F8520EE1D0472C27458EA6 /* Resources */,
+				2463727BCD584988356719BA /* Copy Executable and Staged Data into .app */,
+				4DE3740B33B42ABF86AFF92A /* Generate dsym for archive, and strip */,
+			);
+			dependencies = (
+				52B41DB1BA0EFD9903751E3D /* Version0JestQuest_Build */,
+			);
+			name = "Version0JestQuest";
+			passBuildSettingsInEnvironment = 1;
+			productType = "com.apple.product-type.application";
+			productReference = 22821BCF6DE15943113C7242;
+			productName = "Version0JestQuest";
+		};
+/* End Run_App section */
+		79F049B67E02CD4D82A4CC70 /* Build configuration list for target Version0JestQuest */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6443693DBE4DBF244C95D627 /* DebugGame */,
+				A4B51F95B95FE0C19357F8B3 /* Development */,
+				768EBF0FF041D561C0A4E901 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		6443693DBE4DBF244C95D627 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0339FDB7985AE7C8F0FE03D1 /* Version0JestQuest_DebugGame.xcconfig */;
+			buildSettings = {
+			};
+			name = "DebugGame";
+		};
+		A4B51F95B95FE0C19357F8B3 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5CCF032517F04AD2145669A /* Version0JestQuest_Development.xcconfig */;
+			buildSettings = {
+			};
+			name = "Development";
+		};
+		768EBF0FF041D561C0A4E901 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8CFBB7E9DF9CB45FA0126A0 /* Version0JestQuest_Shipping.xcconfig */;
+			buildSettings = {
+			};
+			name = "Shipping";
+		};
+/* Begin PBXResourcesBuildPhase section */
+		21F8520EE1D0472C27458EA6 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0186002BAB577469483AF9 /* Assets.xcassets in Resources */,
+				251F04BF15D33D585C532F71 /* LaunchScreen.storyboardc in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXShellScriptBuildPhase section */
+		2463727BCD584988356719BA = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Copy Executable and Staged Data into .app";
+			inputPaths = (
+			);
+			outputPaths = (
+				"/dev/null"
+			);
+			shellPath = /bin/sh;
+			shellScript = "set -eo pipefail\nSRC_EXE=\"${UE_BINARIES_DIR}/${UE_UBT_BINARY_SUBPATH}\"\nDEST_EXE=\"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\nDEST_EXE_DIR=`dirname \"${DEST_EXE}\"`\n\necho Copying executable and any standalone dylibs into ${DEST_EXE_DIR}\nmkdir -p \"${DEST_EXE_DIR}\"\nditto \"${SRC_EXE}\" \"${DEST_EXE}\"\n\n# Skip syncing if desired\nif [[ ${UE_SKIP_STAGEDDATA_SYNC} -eq 1 ]]; then exit 0; fi\n\n# When building engine projects, like UnrealGame, we don't have data to stage unless something has specified UE_OVERRIDE_STAGE_DIR\nif [[ -z ${UE_OVERRIDE_STAGE_DIR} ]]; then \nSTAGED_DIR=\"${UE_PROJECT_DIR}/Saved/StagedBuilds/${UE_TARGET_PLATFORM_NAME}\"\nelse\n  STAGED_DIR=\"${UE_OVERRIDE_STAGE_DIR}\"\nfi\nif [[ -z ${STAGED_DIR} ]]; then exit 0; fi\n# Make sure the staged directory exists and has files in it\nif [[ ! -e \"${STAGED_DIR}\" || ! $(ls -A \"${STAGED_DIR}\") ]]; then \n  echo =========================================================================================\n  echo \"WARNING: To run, you must have a valid staged build directory. The Staged location is:\"\n  echo \"  ${STAGED_DIR}\"\n  echo \"Use the editor's Platforms menu, or run a command like::\"\n  echo \"./RunUAT.sh BuildCookRun -platform=Mac -project=<project> -build -cook -stage -pak\"\n  echo =========================================================================================\n  exit -0 \nfi\n\necho \"Syncing ${STAGED_DIR} to ${CONFIGURATION_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/UE\"\nrsync -a --delete --exclude=\"/Info.plist\" --exclude=\"/Manifest_*\" --exclude=\"/*.app\" \"${STAGED_DIR}/\" \"${CONFIGURATION_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/UE\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+/* Begin PBXShellScriptBuildPhase section */
+		4DE3740B33B42ABF86AFF92A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Generate dsym for archive, and strip";
+			inputPaths = (
+				"\"$(CONFIGURATION_BUILD_DIR)/$(EXECUTABLE_PATH)\""
+			);
+			outputPaths = (
+				"\"$(DWARF_DSYM_FOLDER_PATH)/$(DWARF_DSYM_FILE_NAME)\""
+			);
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n# Run the wrapper dsym generator\n\"${UE_ENGINE_DIR}/Build/BatchFiles/Mac/GenerateUniversalDSYM.sh\" \"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\" \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\"\nstrip -no_code_signature_warning -D \"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\n\n# Remove any unused architectures from dylibs in the .app (param1) that don't match the executable (param2). Also error if a dylib is missing arches\n\"${UE_ENGINE_DIR}/Build/BatchFiles/Mac/ThinApp.sh\" \"${CONFIGURATION_BUILD_DIR}/${CONTENTS_FOLDER_PATH}\" \"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		68E20568EE14230E8221AE2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE874C47E7926D2CD47A6026 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19C06F67F49FBB574ACEB52A;
+			remoteInfo = "Version0JestQuest_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		52B41DB1BA0EFD9903751E3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19C06F67F49FBB574ACEB52A /* Version0JestQuest_Build */;
+			targetProxy = 68E20568EE14230E8221AE2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+/* Begin Build section */
+		19C06F67F49FBB574ACEB52A /* Version0JestQuest_Build */ = {
+			isa = PBXLegacyTarget;
+			buildConfigurationList = 3CE31D67B5066530F7CF0D74 /* Build configuration list for PBXLegacyTarget "Version0JestQuest_Build" */;
+			buildArgumentsString = "$(ACTION) Version0JestQuest $(PLATFORM_NAME) $(CONFIGURATION) /Users/pat/Documents/JestQuestVerionZeroCplusplus/Version0JestQuest/Version0JestQuest.uproject";
+			buildToolPath = "/Users/Shared/Epic Games/UE_5.3/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/Shared/Epic Games/UE_5.3";
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "Version0JestQuest_Build";
+			passBuildSettingsInEnvironment = 1;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End Build section */
+		3CE31D67B5066530F7CF0D74 /* Build configuration list for target Version0JestQuest_Build */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625857716DB19AFE6638E86C /* DebugGame */,
+				A1038F18E297CA061307055C /* Development */,
+				AFF4C245350F0DBE6DCA125D /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		625857716DB19AFE6638E86C /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = "DebugGame";
+		};
+		A1038F18E297CA061307055C /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = "Development";
+		};
+		AFF4C245350F0DBE6DCA125D /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = "Shipping";
+		};
+		8782344D732B7C8E427A04D2 /* Build configuration list for target Version0JestQuest */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C544A32C070D1FDCA21CBA2 /* DebugGame */,
+				456E893EF4B43BC22B9FF2D7 /* Development */,
+				CD2A85CFD714E7EAB7F15A9C /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		2C544A32C070D1FDCA21CBA2 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos";
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = "DebugGame";
+		};
+		456E893EF4B43BC22B9FF2D7 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos";
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = "Development";
+		};
+		CD2A85CFD714E7EAB7F15A9C /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos";
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = "Shipping";
+		};
+	};
+	rootObject = BE874C47E7926D2CD47A6026 /* Project object */;
+}
